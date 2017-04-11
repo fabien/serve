@@ -106,7 +106,7 @@ server.use(stylus.middleware({ src: path }));
 
 // less
 if (program.less) {
-  server.use(less(path));
+  server.use(less(path, { ieCompat: false }));
 }
 
 // CORS access for files
