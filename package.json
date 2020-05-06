@@ -1,6 +1,6 @@
 {
 	"name": "serve",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"description": "Simple command-line file / directory server built with connect",
 	"keywords": [
 		"static",
@@ -17,15 +17,15 @@
 	"dependencies": {
 		"basic-auth-connect": "^1.0.0",
 		"commander": "2.9.0",
-		"compression": "^1.6.2",
-		"connect": "3.4.x",
-		"less-middleware": "2.2.0",
+		"compression": "^1.7.4",
+		"connect": "3.7.x",
+		"less-middleware": "3.1.0",
 		"morgan": "^1.7.0",
 		"opn": "4.0.x",
 		"pug": "*",
-		"serve-favicon": "2.3.x",
-		"serve-index": "1.8.x",
-		"serve-static": "1.11.x",
+		"serve-favicon": "2.5.x",
+		"serve-index": "1.9.x",
+		"serve-static": "1.14.x",
 		"stylus": "*"
 	},
 	"preferGlobal": true
